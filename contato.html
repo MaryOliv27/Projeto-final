@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"
+    <title>Contato</title>
+    <style>
+        body{
+            background-color: rgb(252, 175, 211);
+        }
+        p{
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li style="float:left"><a href="Projeto final.html"><img class="logo" src="../Projeto Final - Flores da Mary/img/Meu logo.png"></a></li>
+            <li><a class="navbar" href="contato.html">Contato</a></li>
+            <li><a class="navbar" href="Projeto final.html">Página Inicial</a></li>
+        </ul>
+    </nav>
+    <form>
+
+    <fieldset id=""usuario"><Legend> Identificação do Usuário</Legend><p><label 
+        for="cNome">Nome:</label><input 
+        type="text"Name="tNome"id="cNome"
+        Size="20"maxlength="30"placeholder="Nome Completo"/></p>
+
+    <p><Label for="cSenha">Senha:</Label><input type="Password" name = 
+        "TSenha" id="CSenha" Size :"8" maxlength="8" placeholder="Digite uma senha"/></p>
+        <p><label for ="Cmail">E-mail:</label>
+        <input type="Email" name="TMail" Id "CMail" Size="20" maxlength="40" /> </p>
+    </fieldset>
+          <fieldset>
+        <p><label for+= "cNasc">Data de Nascimento:</label>
+        <input type="Date" name "tNasc" Id="cNasc"/> </p>
+        </fieldset>
+        <fieldset id="endereco"><legend> Endereço do Usuário</legend>
+        <p><label for="cRua">Logradouro:</label>
+        <input Type=" Text" name="tRua" Id ="cRua" size="13" maxlength="80" placeholder="Rua, Av, Trav,..."/> </p>
+    <p><label for="cNum" >Número:</label>
+    <input type="number" name=" tNum" Id="cNum" min="0" max="99999" placeholder="123"/> </p>   
+<p><label for="cEst">Estado:</label>
+    <input Type=" Text" name="tEst" Id ="cEst" size="13" maxlength="80" placeholder="São Paulo"/> </p>  
+   <p><label for="cCid">Cidade:</label>
+<input type="text" name="tCid" Id "cCid" maxlength="40" size="20" placeholder="Sua Cidade"/> </p>
+    </fieldset>
+    <fieldset id="Mensagem"><legend>Mensagem do usuario</legend>
+        <p><label for="cMsg">Mensagem:</label></br>
+        <textarea name="tMsg" id="cMsg" Cols="60" rows="5" placeholder="Deixe aqui sua mensagem"></textarea></p>
+        <button> Enviar</button>
+    </fieldset>
+
+</html>
+
